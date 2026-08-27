@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?pm7\.cl$ [NC]
+RewriteRule ^(.*)$ https://pm7group.net/$1 [R=301,L]
+
+RedirectMatch 301 ^/servicios/automatizacion-industrial/?$ /soluciones/automatizacion-industrial
+RedirectMatch 301 ^/servicios/proyectos-de-pesaje-industrial/?$ /soluciones/pesaje-industrial
+RedirectMatch 301 ^/servicios/robotica-industrial/?$ /soluciones/robotica-industrial
+RedirectMatch 301 ^/servicios/scada-y-supervision-remota/?$ /soluciones/software-y-digitalizacion
+RedirectMatch 301 ^/servicios/sostenibilidad-y-energia/?$ /soluciones
+RedirectMatch 301 ^/servicios/?$ /soluciones
+RedirectMatch 301 ^/nosotros/?$ /nosotros
+RedirectMatch 301 ^/contacto/?$ /contacto
+RedirectMatch 301 ^/solicita-asesoria/?$ /contacto
+RedirectMatch 301 ^/blog/?$ /
