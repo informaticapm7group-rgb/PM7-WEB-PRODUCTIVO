@@ -2,13 +2,13 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^(www\.)?pm7\.cl$ [NC]
 RewriteRule ^(.*)$ https://pm7group.net/$1 [R=301,L]
 
-RedirectMatch 301 ^/servicios/automatizacion-industrial/?$ /soluciones/automatizacion-industrial
-RedirectMatch 301 ^/servicios/proyectos-de-pesaje-industrial/?$ /soluciones/pesaje-industrial
-RedirectMatch 301 ^/servicios/robotica-industrial/?$ /soluciones/robotica-industrial
-RedirectMatch 301 ^/servicios/scada-y-supervision-remota/?$ /soluciones/software-y-digitalizacion
-RedirectMatch 301 ^/servicios/sostenibilidad-y-energia/?$ /soluciones
-RedirectMatch 301 ^/servicios/?$ /soluciones
-RedirectMatch 301 ^/nosotros/?$ /nosotros
-RedirectMatch 301 ^/contacto/?$ /contacto
-RedirectMatch 301 ^/solicita-asesoria/?$ /contacto
-RedirectMatch 301 ^/blog/?$ /
+RedirectMatch 301 ^/servicios/automatizacion-industrial/?$ https://pm7group.net/soluciones/automatizacion-industrial
+RedirectMatch 301 ^/servicios/proyectos-de-pesaje-industrial/?$ https://pm7group.net/soluciones/pesaje-industrial
+RedirectMatch 301 ^/servicios/robotica-industrial/?$ https://pm7group.net/soluciones/robotica-industrial
+RedirectMatch 301 ^/servicios/scada-y-supervision-remota/?$ https://pm7group.net/soluciones/software-y-digitalizacion
+RedirectMatch 301 ^/servicios/sostenibilidad-y-energia/?$ https://pm7group.net/soluciones
+RedirectMatch 301 ^/servicios/?$ https://pm7group.net/soluciones
+RedirectMatch 301 ^/nosotros/?$ https://pm7group.net/nosotros
+RedirectMatch 301 ^/contacto/?$ https://pm7group.net/contacto
+RedirectMatch 301 ^/solicita-asesoria/?$ https://pm7group.net/contacto
+RedirectMatch 301 ^/blog/?$ https://pm7group.net/
